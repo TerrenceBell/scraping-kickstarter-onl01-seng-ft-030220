@@ -12,4 +12,4 @@ end
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 create_project_hash
-project.css("")<span class="location-name">Brooklyn, NY</span>
+project.css("span.location-name")<span class="location-name">Brooklyn, NY</span>
